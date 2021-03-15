@@ -1,0 +1,13 @@
+local Success, Func = pcall(function()
+  local Sound = Instance.new("Sound");
+  Sound.Parent = game:GetService("SoundService");
+  Sound.SoundId = "rbxassetid://6341396608";
+  Sound.Volume = 6;
+  Sound:Play();
+end)
+
+if Success then
+  print("Worked!");
+ else
+  print("Didn't work.");
+end
