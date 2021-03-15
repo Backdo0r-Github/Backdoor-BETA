@@ -7,7 +7,7 @@ local Success, Func = pcall(function()
 end)
 
 if Success then
-  print("Worked!");
+  print("Worked.");
  else
   print("Didn't work.");
 end
